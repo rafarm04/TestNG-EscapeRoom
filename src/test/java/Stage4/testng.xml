@@ -1,0 +1,25 @@
+<suite name="SmokeSuite">
+    <test name="SmokeTests">
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="UserServiceTest"/>
+        </classes>
+    </test>
+
+    <test name="OtherTests">
+        <groups>
+            <run>
+                <include name="regression"/>
+                <include name="negative"/>
+                <exclude name="negative"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="UserServiceTest"/>
+        </classes>
+    </test>
+</suite>

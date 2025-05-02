@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="AllStagesSuite">
+  <test name="StageTests">
+    <packages>
+        <package name="Stage2"/>
+      <package name="Stage3"/>
+      <package name="Stage4"/>
+      <package name="Stage5"/>
+      <package name="Stage6"/>
+    </packages>
+  </test>
+</suite>
