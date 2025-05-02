@@ -3,7 +3,7 @@
   <test name="StageTests">
     <packages>
         <package name="Stage2"/>
-      <package name="Stage3"/>
+      <package name="Stage3.DataProviderTest"/>
       <package name="Stage4"/>
       <package name="Stage5"/>
       <package name="Stage6"/>

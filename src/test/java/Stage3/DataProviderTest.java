@@ -30,8 +30,7 @@ public class DataProviderTest {
     }
 
     @Test(expectedExceptions = IllegalArgumentException.class)
-    @Parameters({"negativeInput"})
-    public void testNegativeNumber(int number) {
-        isEven(number);
+    public void testNegativeNumber() {
+        isEven(-1);
     }
 }

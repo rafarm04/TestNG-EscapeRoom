@@ -1,3 +1,5 @@
+src/test/java/Stage6/Calculator.class
 src/test/java/Stage5/DependencyChainTests.class
 src/test/java/Stage4/GroupUpTest.class
-src/test/java/Stage3/DataProviderTest.class
+Stage3/DataProviderTest.class
+src/test/java/Stage6/PowerTrioTest.class
